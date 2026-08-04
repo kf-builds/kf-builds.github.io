@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kf-builds | Python & Discord Bot Developer</title>
+    <style>
+        /* ========== RESET & BASE ========== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --accent: #e94560;
+            --accent-hover: #ff6b81;
+            --text-primary: #eeeeee;
+            --text-secondary: #a8a8b3;
+            --border: #2a2a4a;
+            --success: #4ecca3;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+        }
+
+        /* ========== NAVIGATION ========== */
+        nav {
+            background-color: var(--bg-secondary);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav .nav-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        nav .logo span {
+            color: var(--accent);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent), var(--success));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .tech-tags span {
+            background-color: var(--bg-card);
+            color: var(--success);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-hover);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* ========== PROJECTS SECTION ========== */
+        .projects {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        .projects h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .project-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.15);
+        }
+
+        .project-card .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+            color: var(--text-primary);
+        }
+
+        .project-card .card-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .project-card .features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-card .features li {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            padding: 0.3rem 0;
+        }
+
+        .project-card .features li::before {
+            content: "▸ ";
+            color: var(--accent);
+        }
+
+        .project-card .card-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-card .card-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 1rem;
+            background-color: var(--bg-card);
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+        }
+
+        .project-card .card-links a:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        /* ========== ABOUT SECTION ========== */
+        .about {
+            background-color: var(--bg-secondary);
+            padding: 4rem 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .about-content {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--accent);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            .project-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">kf-<span>builds</span></div>
+            <ul>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="https://github.com/kf-builds" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Python &amp; Discord Bot Developer</h1>
+        <p class="subtitle">Ich baue Discord-Bots mit discord.py, FastAPI und SQLite.</p>
+        <p class="description">
+            Leidenschaftlicher Entwickler mit Fokus auf Discord-Integrationen, 
+            Automatisierung und interaktive Bots. Gerne löse ich komplexe 
+            Probleme — egal ob Voice-Channel-Management oder Spielmechaniken.
+        </p>
+        <div class="tech-tags">
+            <span>Python</span>
+            <span>discord.py</span>
+            <span>FastAPI</span>
+            <span>SQLite</span>
+            <span>Async</span>
+            <span>Slash Commands</span>
+        </div>
+        <a href="https://github.com/kf-builds" class="cta-button" target="_blank" rel="noopener">
+            🐙 GitHub ansehen
+        </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Meine Projekte</h2>
+        <div class="project-cards">
+
+            <!-- TempVoice Card -->
+            <div class="project-card">
+                <div class="card-icon">🎙️</div>
+                <h3>TempVoice</h3>
+                <p class="card-description">
+                    Ein Discord-Bot-Cog für temporäre Voice-Channels – wie bei 
+                    den offiziellen Discord-Servern, aber als eigenständiger Bot. 
+                    User erstellen private Channels einfach durch Betreten eines 
+                    Wartebereichs.
+                </p>
+                <ul class="features">
+                    <li>Automatische Channel-Erstellung beim Betreten</li>
+                    <li>Owner-Controls über Buttons (sperren, entsperren, einladen)</li>
+                    <li>Auto-Löschung wenn der letzte User den Channel verlässt</li>
+                    <li>Modernes Slash-Command-Interface</li>
+                </ul>
+                <div class="card-links">
+                    <a href="https://github.com/kf-builds/temp-voice" target="_blank" rel="noopener">
+                        📂 Quellcode
+                    </a>
+                </div>
+            </div>
+
+            <!-- Codenames Bot Card -->
+            <div class="project-card">
+                <div class="card-icon">🕵️</div>
+                <h3>Codenames Bot</h3>
+                <p class="card-description">
+                    Ein Discord-Bot für das Wort-Raten-Spiel Codenames – 
+                    direkt im Server. Mit Team-Chef-System, farbcodierten 
+                    Wörtern, Attentäter-Mechanik und Lösungskarten per DM.
+                </p>
+                <ul class="features">
+                    <li>5×5 Wort-Gitter mit zufälliger Zuordnung</li>
+                    <li>Team-Chef-System über Discord Buttons</li>
+                    <li>Farbcodierte Wörter (Rot, Blau, Neutral, Attentäter)</li>
+                    <li>Lösungskarte per Direktnachricht für die Chefs</li>
+                </ul>
+                <div class="card-links">
+                    <a href="https://github.com/kf-builds/codenames-bot" target="_blank" rel="noopener">
+                        📂 Quellcode
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Über mich</h2>
+            <p>
+                Ich programmiere gerne Python und erstelle Discord-Bots in meiner 
+                Freizeit. Mein Fokus liegt auf interaktiven Anwendungen — von 
+                Voice-Channel-Automatisierung bis hin zu mehrspieler-Spielen 
+                direkt in Discord.
+            </p>
+            <p>
+                Neben der Programmierung helfe ich Familienmitgliedern bei 
+                technischen Projekten und bin sportlich aktiv. Ich suche nach 
+                einer Ausbildungsstelle oder einem Projekt, bei dem ich meine 
+                Fähigkeiten einbringen und weiterentwickeln kann.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Gefertigt mit Python &mdash;
+            <a href="https://github.com/kf-builds" target="_blank" rel="noopener">
+                kf-builds auf GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
