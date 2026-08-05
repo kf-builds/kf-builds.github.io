@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#36393f"/>
+  <rect width="800" height="48" fill="#2f3136"/>
+  <text x="270" y="32" font-family="Arial" font-size="16" font-weight="bold" fill="#eeeeee"># codenames</text>
+  <rect x="0" y="0" width="800" height="36" fill="black" opacity="0.6"/>
+  <text x="400.0" y="25" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#e94560">Codenames Bot — Spiel UI</text>
+  <text x="400" y="85" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#eeeeee">Runde 3 — Aufklärungsteam f&#252;hrt!</text>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial" font-size="13" fill="#a8a8b3">Geheimagenten: Rot 4 &#xB7; Blau 5 &#xB7; Neutral 0 &#xB7; Attent&#228;ter: 0</text>
+  <g transform="translate(175, 125)">
+    <rect x="20" y="5" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="75" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Schwert</text>
+    <rect x="150" y="5" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="205" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Geist</text>
+    <rect x="280" y="5" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="335" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">K&#246;nig</text>
+    <rect x="410" y="5" width="110" height="48" rx="8" fill="#f0ad4e" opacity="0.25"/>
+    <text x="465" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Asche</text>
+    <rect x="540" y="5" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="595" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Fuchs</text>
+    <rect x="20" y="63" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="75" y="94" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Turm</text>
+    <rect x="150" y="63" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="205" y="94" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">D&#228;mon</text>
+    <rect x="280" y="63" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="335" y="94" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Thron</text>
+    <rect x="410" y="63" width="110" height="48" rx="8" fill="#e94560" opacity="0.35"/>
+    <text x="465" y="94" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Schatten</text>
+    <rect x="540" y="63" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="595" y="94" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Drache</text>
+    <rect x="20" y="121" width="110" height="48" rx="8" fill="#f0ad4e" opacity="0.25"/>
+    <text x="75" y="152" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Burg</text>
+    <rect x="150" y="121" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="205" y="152" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Feuer</text>
+    <rect x="280" y="121" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="335" y="152" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Ritter</text>
+    <rect x="410" y="121" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="465" y="152" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Runen</text>
+    <rect x="540" y="121" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="595" y="152" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Goblin</text>
+    <rect x="20" y="179" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="75" y="210" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Br&#252;cke</text>
+    <rect x="150" y="179" width="110" height="48" rx="8" fill="#f0ad4e" opacity="0.25"/>
+    <text x="205" y="210" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Sumpf</text>
+    <rect x="280" y="179" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="335" y="210" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Wald</text>
+    <rect x="410" y="179" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="465" y="210" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Krieger</text>
+    <rect x="540" y="179" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="595" y="210" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Magie</text>
+    <rect x="20" y="237" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="75" y="268" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Krone</text>
+    <rect x="150" y="237" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="205" y="268" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Pfeil</text>
+    <rect x="280" y="237" width="110" height="48" rx="8" fill="#e94560" opacity="0.35"/>
+    <text x="335" y="268" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">W&#228;chter</text>
+    <rect x="410" y="237" width="110" height="48" rx="8" fill="#58a6ff" opacity="0.25"/>
+    <text x="465" y="268" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Portal</text>
+    <rect x="540" y="237" width="110" height="48" rx="8" fill="#e94560" opacity="0.25"/>
+    <text x="595" y="268" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Zauber</text>
+  </g>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial" font-size="14" fill="#eeeeee">Geheimcode eingeben:</text>
+  <rect x="300" y="442" width="200" height="40" rx="8" fill="#0f3460"/>
+  <text x="400" y="468" text-anchor="middle" font-family="Monospace" font-size="16" fill="#4ecca3">Schatten, Drache, 3</text>
+  <rect x="540" y="430" width="220" height="120" rx="8" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="650" y="452" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#e94560">&#x1F511; L&#246;sung (nur Chef)</text>
+  <text x="555" y="475" font-family="Monospace" font-size="11" fill="#eeeeee">Schwert &#x2192; rot</text>
+  <text x="555" y="493" font-family="Monospace" font-size="11" fill="#eeeeee">Geist &#x2192; blau</text>
+  <text x="555" y="511" font-family="Monospace" font-size="11" fill="#eeeeee">K&#246;nig &#x2192; rot</text>
+  <text x="555" y="529" font-family="Monospace" font-size="11" fill="#4ecca3">Asche &#x2192; neutral</text>
+  <text x="555" y="547" font-family="Monospace" font-size="11" fill="#eeeeee">Fuchs &#x2192; rot</text>
+  <rect x="40" y="440" width="200" height="100" rx="8" fill="#16213e"/>
+  <text x="140" y="462" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#e94560">&#x1F534; Rot: 4</text>
+  <text x="140" y="485" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#58a6ff">&#x1F535; Blau: 5</text>
+  <text x="140" y="508" text-anchor="middle" font-family="Arial" font-size="13" fill="#a8a8b3">Neutral: 0</text>
+  <text x="140" y="528" text-anchor="middle" font-family="Arial" font-size="13" fill="#e94560">&#x1F480; Attent&#228;ter: 0</text>
+</svg>

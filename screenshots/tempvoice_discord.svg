@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#36393f"/>
+  <rect width="72" height="550" fill="#2f3136"/>
+  <rect x="12" y="12" width="48" height="48" rx="24" fill="#e94560"/>
+  <text x="36" y="42" text-anchor="middle" font-family="Arial" font-size="20" fill="white">&#x1F399;</text>
+  <rect x="12" y="72" width="48" height="48" rx="24" fill="#2a2a4a"/>
+  <text x="36" y="102" text-anchor="middle" font-family="Arial" font-size="16" fill="#a8a8b3">&#x1F3AE;</text>
+  <rect x="12" y="132" width="48" height="48" rx="24" fill="#2a2a4a"/>
+  <text x="36" y="162" text-anchor="middle" font-family="Arial" font-size="16" fill="#a8a8b3">&#x1F4DA;</text>
+  <rect x="12" y="192" width="48" height="48" rx="24" fill="#2a2a4a"/>
+  <text x="36" y="222" text-anchor="middle" font-family="Arial" font-size="16" fill="#a8a8b3">&#x1F3A8;</text>
+  <circle cx="36" cy="270" r="24" fill="#0f3460"/>
+  <text x="36" y="277" text-anchor="middle" font-family="Arial" font-size="22" fill="#4ecca3">+</text>
+  <rect x="72" width="180" height="550" fill="#202225"/>
+  <text x="84" y="36" font-family="Arial" font-size="14" font-weight="bold" fill="#eeeeee">TempVoice Server</text>
+  <line x1="72" y1="44" x2="252" y2="44" stroke="#2a2a4a" stroke-width="1"/>
+  <text x="84" y="68" font-family="Arial" font-size="11" font-weight="bold" fill="#a8a8b3">TEXT-KANAL</text>
+  <text x="96" y="88" font-family="Arial" font-size="13" fill="#a8a8b3"># general</text>
+  <text x="96" y="108" font-family="Arial" font-size="13" fill="#a8a8b3"># rules</text>
+  <text x="84" y="132" font-family="Arial" font-size="11" font-weight="bold" fill="#a8a8b3">VOICE-KANAL</text>
+  <text x="96" y="152" font-family="Arial" font-size="13" fill="#a8a8b3">&#x1F50A; Wartebereich</text>
+  <text x="96" y="172" font-family="Arial" font-size="13" fill="#4ecca3">&#x1F50A; TempChannel-abc123</text>
+  <text x="108" y="188" font-family="Arial" font-size="11" fill="#a8a8b3">&#x1F464; Shadow</text>
+  <text x="96" y="212" font-family="Arial" font-size="13" fill="#a8a8b3">&#x1F50A; TempChannel-def456</text>
+  <text x="108" y="228" font-family="Arial" font-size="11" fill="#a8a8b3">&#x1F464; Shadow &#x1F464; User2</text>
+  <rect y="494" width="180" height="56" fill="#1a1a2e"/>
+  <circle cx="90" cy="518" r="16" fill="#e94560"/>
+  <text x="90" y="524" text-anchor="middle" font-family="Arial" font-size="14" fill="white">S</text>
+  <text x="114" y="514" font-family="Arial" font-size="12" fill="#eeeeee">Shadow</text>
+  <text x="114" y="528" font-family="Arial" font-size="10" fill="#a8a8b3">Online</text>
+  <rect x="252" y="0" width="548" height="550" fill="#36393f"/>
+  <rect x="252" y="0" width="548" height="48" fill="#2f3136"/>
+  <text x="270" y="32" font-family="Arial" font-size="16" font-weight="bold" fill="#eeeeee"># TempChannel-abc123</text>
+  <rect x="270" y="65" width="48" height="48" rx="24" fill="#e94560"/>
+  <text x="294" y="95" text-anchor="middle" font-family="Arial" font-size="20" fill="white">&#x1F916;</text>
+  <text x="330" y="78" font-family="Arial" font-size="14" font-weight="bold" fill="#eeeeee">TempVoice</text>
+  <rect x="330" y="72" width="40" height="14" rx="7" fill="#e94560"/>
+  <text x="350" y="83" text-anchor="middle" font-family="Arial" font-size="9" fill="white">BOT</text>
+  <rect x="270" y="95" width="450" height="100" rx="8" fill="#16213e"/>
+  <text x="285" y="118" font-family="Arial" font-size="14" fill="#eeeeee">Willkommen in TempChannel-abc123! &#x1F389;</text>
+  <text x="285" y="138" font-family="Arial" font-size="13" fill="#a8a8b3">Dieser Channel wird automatisch erstellt, wenn du den Wartebereich betrittst.</text>
+  <text x="285" y="156" font-family="Arial" font-size="13" fill="#a8a8b3">Er wird automatisch gelöscht, wenn du ihn verlässt und niemand mehr da ist.</text>
+  <text x="285" y="178" font-family="Arial" font-size="13" fill="#4ecca3">Owner-Buttons: &#x1F512; Sperren  &#x1F513; Entsperren  &#x1F464; Einladen</text>
+  <rect x="270" y="210" width="48" height="48" rx="24" fill="#0f3460"/>
+  <text x="294" y="240" text-anchor="middle" font-family="Arial" font-size="18" fill="#a8a8b3">U</text>
+  <text x="330" y="223" font-family="Arial" font-size="13" font-weight="bold" fill="#eeeeee">Shadow</text>
+  <text x="285" y="248" font-family="Monospace" font-size="12" fill="#4ecca3">/tempvoice status</text>
+  <rect x="270" y="260" width="450" height="70" rx="8" fill="#16213e"/>
+  <text x="285" y="283" font-family="Arial" font-size="13" fill="#eeeeee">&#x1F4CA; TempChannel-abc123: 1 User, erstellt vor 5 Min.</text>
+  <text x="285" y="303" font-family="Arial" font-size="13" fill="#a8a8b3">Owner: Shadow | Auto-Lösung: Aktiviert</text>
+  <rect x="270" y="470" width="506" height="40" rx="8" fill="#0f3460"/>
+  <text x="285" y="495" font-family="Arial" font-size="13" fill="#a8a8b3">Nachricht senden @here</text>
+  <rect x="0" y="0" width="800" height="36" fill="black" opacity="0.6"/>
+  <text x="400.0" y="25" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#4ecca3">TempVoice Discord UI Mockup</text>
+</svg>

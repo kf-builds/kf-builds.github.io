@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#4ecca3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  <rect width="800" height="48" fill="#16213e"/>
+  <rect y="48" width="800" height="2" fill="#2a2a4a"/>
+  <text x="24" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#eeeeee">kf-<tspan fill="#e94560">builds</tspan></text>
+  <text x="520" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">Projekte</text>
+  <text x="600" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">Über mich</text>
+  <text x="690" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">GitHub</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#eeeeee">Campaign Manager</text>
+  <line x1="360" y1="100" x2="440" y2="100" stroke="url(#accentGrad)" stroke-width="2"/>
+  <rect x="620" y="120" width="150" height="36" rx="6" fill="#e94560"/>
+  <text x="695" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">+ Neue Campaign</text>
+  <rect y="168" width="800" height="2" fill="#2a2a4a"/>
+  <rect x="40" y="180" width="720" height="36" rx="6" fill="#0f3460"/>
+  <text x="60" y="204" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#eeeeee">Name</text>
+  <text x="400" y="204" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#eeeeee">System</text>
+  <text x="560" y="204" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#eeeeee">Aktionen</text>
+  <rect x="40" y="222" width="720" height="48" rx="6" fill="#16213e"/>
+  <text x="60" y="252" font-family="Arial, sans-serif" font-size="14" fill="#eeeeee">Die Schattenkrone</text>
+  <text x="400" y="252" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">DnD 5e</text>
+  <text x="560" y="252" font-family="Arial, sans-serif" font-size="13" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="252" font-family="Arial, sans-serif" font-size="13" fill="#e94560">Löschen</text>
+  <rect x="40" y="274" width="720" height="48" rx="6" fill="#1a1a2e"/>
+  <text x="60" y="304" font-family="Arial, sans-serif" font-size="14" fill="#eeeeee">Sturmschatten</text>
+  <text x="400" y="304" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">Shadowrun 6e</text>
+  <text x="560" y="304" font-family="Arial, sans-serif" font-size="13" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="304" font-family="Arial, sans-serif" font-size="13" fill="#e94560">Löschen</text>
+  <rect x="40" y="326" width="720" height="48" rx="6" fill="#16213e"/>
+  <text x="60" y="356" font-family="Arial, sans-serif" font-size="14" fill="#eeeeee">Jenseits des Abgrunds</text>
+  <text x="400" y="356" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">Call of Cthulhu 7e</text>
+  <text x="560" y="356" font-family="Arial, sans-serif" font-size="13" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="356" font-family="Arial, sans-serif" font-size="13" fill="#e94560">Löschen</text>
+  <rect x="40" y="378" width="720" height="48" rx="6" fill="#1a1a2e"/>
+  <text x="60" y="408" font-family="Arial, sans-serif" font-size="14" fill="#eeeeee">Feuer und Eisen</text>
+  <text x="400" y="408" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">DnD 5e</text>
+  <text x="560" y="408" font-family="Arial, sans-serif" font-size="13" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="408" font-family="Arial, sans-serif" font-size="13" fill="#e94560">Löschen</text>
+  <rect y="460" width="800" height="40" fill="#16213e"/>
+  <rect y="460" width="800" height="1" fill="#2a2a4a"/>
+  <text x="400.0" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">kf-builds &copy; 2025</text>
+</svg>

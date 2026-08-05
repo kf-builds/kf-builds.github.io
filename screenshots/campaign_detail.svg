@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#4ecca3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  <rect width="800" height="48" fill="#16213e"/>
+  <rect y="48" width="800" height="2" fill="#2a2a4a"/>
+  <text x="24" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#eeeeee">kf-<tspan fill="#e94560">builds</tspan></text>
+  <text x="520" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">Projekte</text>
+  <text x="600" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">Über mich</text>
+  <text x="690" y="31" font-family="Arial, sans-serif" font-size="14" fill="#a8a8b3">GitHub</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#eeeeee">Die Schattenkrone</text>
+  <line x1="360" y1="100" x2="440" y2="100" stroke="url(#accentGrad)" stroke-width="2"/>
+  <rect x="40" y="120" width="120" height="28" rx="14" fill="#0f3460"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">DnD 5e</text>
+  <text x="170" y="140" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">• 12 NPCs · 5 Locations · 8 Quests</text>
+  <rect x="40" y="158" width="720" height="50" rx="8" fill="#16213e"/>
+  <text x="55" y="178" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">Eine dunkle Fantasy-Kampagne im Reich der Schatten, wo alte Götter flüstern und</text>
+  <text x="55" y="196" font-family="Arial, sans-serif" font-size="13" fill="#a8a8b3">die Spieler gegen eine uralte Bedrohung kämpfen müssen.</text>
+  <rect x="40" y="220" width="100" height="32" rx="6" fill="#e94560" opacity="0.9"/>
+  <text x="90" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">NPCs</text>  <rect x="150" y="220" width="100" height="32" rx="6" fill="#0f3460"/>
+  <text x="200" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">NPCs</text>  <rect x="260" y="220" width="100" height="32" rx="6" fill="#e94560" opacity="0.9"/>
+  <text x="310" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Locations</text>  <rect x="370" y="220" width="100" height="32" rx="6" fill="#0f3460"/>
+  <text x="420" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Locations</text>  <rect x="480" y="220" width="100" height="32" rx="6" fill="#e94560" opacity="0.9"/>
+  <text x="530" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Quests</text>  <rect x="590" y="220" width="100" height="32" rx="6" fill="#0f3460"/>
+  <text x="640" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Quests</text>  <rect x="700" y="220" width="100" height="32" rx="6" fill="#e94560" opacity="0.9"/>
+  <text x="750" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Spieler</text>  <rect x="810" y="220" width="100" height="32" rx="6" fill="#0f3460"/>
+  <text x="860" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Spieler</text>  <rect x="920" y="220" width="100" height="32" rx="6" fill="#e94560" opacity="0.9"/>
+  <text x="970" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Session-Logs</text>  <rect x="1030" y="220" width="100" height="32" rx="6" fill="#0f3460"/>
+  <text x="1080" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Session-Logs</text>  <text x="40" y="275" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="{TEXT}">NPCs</text>
+  <rect x="680" y="261" width="80" height="28" rx="6" fill="{SUCCESS}" opacity="0.8"/>
+  <text x="720" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">+ NPC</text>
+  <rect x="40" y="290" width="720" height="32" rx="4" fill="#16213e"/>
+  <circle cx="55" cy="306" r="8" fill="#e94560"/>
+  <text x="70" y="312" font-family="Arial, sans-serif" font-size="13" fill="#eeeeee">Lord Vexarius</text>
+  <text x="300" y="312" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Antagonist</text>
+  <text x="560" y="312" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="312" font-family="Arial, sans-serif" font-size="12" fill="#e94560">Löschen</text>
+  <rect x="40" y="328" width="720" height="32" rx="4" fill="#1a1a2e"/>
+  <circle cx="55" cy="344" r="8" fill="#4ecca3"/>
+  <text x="70" y="350" font-family="Arial, sans-serif" font-size="13" fill="#eeeeee">Elara Moonwhisper</text>
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Verbündete</text>
+  <text x="560" y="350" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="350" font-family="Arial, sans-serif" font-size="12" fill="#e94560">Löschen</text>
+  <rect x="40" y="366" width="720" height="32" rx="4" fill="#16213e"/>
+  <circle cx="55" cy="382" r="8" fill="#a8a8b3"/>
+  <text x="70" y="388" font-family="Arial, sans-serif" font-size="13" fill="#eeeeee">Der Schattenschmied</text>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Händler</text>
+  <text x="560" y="388" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="388" font-family="Arial, sans-serif" font-size="12" fill="#e94560">Löschen</text>
+  <rect x="40" y="404" width="720" height="32" rx="4" fill="#1a1a2e"/>
+  <circle cx="55" cy="420" r="8" fill="#f0ad4e"/>
+  <text x="70" y="426" font-family="Arial, sans-serif" font-size="13" fill="#eeeeee">Königin Morwen</text>
+  <text x="300" y="426" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Neutral</text>
+  <text x="560" y="426" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="426" font-family="Arial, sans-serif" font-size="12" fill="#e94560">Löschen</text>
+  <rect x="40" y="442" width="720" height="32" rx="4" fill="#16213e"/>
+  <circle cx="55" cy="458" r="8" fill="#e94560"/>
+  <text x="70" y="464" font-family="Arial, sans-serif" font-size="13" fill="#eeeeee">Phantom Wächter</text>
+  <text x="300" y="464" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">Boss</text>
+  <text x="560" y="464" font-family="Arial, sans-serif" font-size="12" fill="#4ecca3">Bearbeiten</text>
+  <text x="660" y="464" font-family="Arial, sans-serif" font-size="12" fill="#e94560">Löschen</text>
+  <rect y="560" width="800" height="40" fill="#16213e"/>
+  <rect y="560" width="800" height="1" fill="#2a2a4a"/>
+  <text x="400.0" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a8b3">kf-builds &copy; 2025</text>
+</svg>
