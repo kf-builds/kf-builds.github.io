@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kf-builds | Nachricht gesendet!</title>
+    <style>
+        /* ========== RESET & BASE ========== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --accent: #e94560;
+            --accent-hover: #ff6b81;
+            --text-primary: #eeeeee;
+            --text-secondary: #a8a8b3;
+            --border: #2a2a4a;
+            --success: #4ecca3;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+        }
+
+        /* ========== NAVIGATION ========== */
+        nav {
+            background-color: var(--bg-secondary);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav .nav-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        nav .logo span {
+            color: var(--accent);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+
+        /* ========== THANK YOU SECTION ========== */
+        .thankyou {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .thankyou .icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .thankyou h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--success);
+        }
+
+        .thankyou p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: var(--accent-hover);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--accent);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 600px) {
+            .thankyou h1 {
+                font-size: 1.5rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">kf-<span>builds</span></div>
+            <ul>
+                <li><a href="index.html#projects">Projekte</a></li>
+                <li><a href="index.html#about">Über mich</a></li>
+                <li><a href="index.html#kontakt">Kontakt</a></li>
+                <li><a href="https://github.com/kf-builds" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Thank You Section -->
+    <section class="thankyou">
+        <div class="icon">✅</div>
+        <h1>Vielen Dank!</h1>
+        <p>
+            Deine Nachricht wurde erfolgreich gesendet. Ich melde mich so schnell wie möglich bei dir!
+        </p>
+        <a href="index.html" class="back-button">
+            ← Zurück zur Startseite
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Gefertigt mit Python &mdash;
+            <a href="https://github.com/kf-builds" target="_blank" rel="noopener">
+                kf-builds auf GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
